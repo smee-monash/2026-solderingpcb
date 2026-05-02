@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CD4017BE") (type "KiCad") (uri "${KIPRJMOD}/Parts/ul_CD4017BE/KiCADv6/2026-05-01_14-25-23.kicad_sym") (options "") (descr ""))
+)
