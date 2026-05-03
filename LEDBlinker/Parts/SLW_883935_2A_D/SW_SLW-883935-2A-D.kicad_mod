@@ -1,0 +1,233 @@
+(footprint "SW_SLW-883935-2A-D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.675 -3.125 0)
+		(layer "F.SilkS")
+		(uuid "4e8fa3aa-3b65-4977-a29b-0533f0151daf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SLW-883935-2A-D"
+		(at 6.58 3.165 0)
+		(layer "F.Fab")
+		(uuid "767c206a-acde-43b5-be32-61b2ca10d55e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62c404a5-9f6f-409a-a7ed-9906bad36bc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d9e8a8b-46df-42d4-bb28-485fd0a942fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.4 -1.95)
+		(end -4.4 1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62a60988-ade9-46a2-84b2-1a8d433594e9")
+	)
+	(fp_line
+		(start -4.4 1.95)
+		(end 4.4 1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41d81527-f151-4585-8be2-595c2b27da8c")
+	)
+	(fp_line
+		(start 4.4 -1.95)
+		(end -4.4 -1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54705da7-d791-421f-8dcd-5c2c851dda8a")
+	)
+	(fp_line
+		(start 4.4 1.95)
+		(end 4.4 -1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc4f1c78-d7a0-49ca-915e-d6b646401789")
+	)
+	(fp_circle
+		(center -5 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d81db35-6826-4ba1-957c-8880de4357b0")
+	)
+	(fp_line
+		(start -4.65 -2.2)
+		(end -4.65 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40914a6b-b2bc-4577-89b7-9431656bff27")
+	)
+	(fp_line
+		(start -4.65 2.2)
+		(end 4.65 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc0ac307-dd30-4ad9-8506-7c0712404adb")
+	)
+	(fp_line
+		(start 4.65 -2.2)
+		(end -4.65 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5651520-c0a2-495e-bf03-e06a254e6b4e")
+	)
+	(fp_line
+		(start 4.65 2.2)
+		(end 4.65 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be2fd680-75f0-452a-a977-d58dc9bbdf2c")
+	)
+	(fp_line
+		(start -4.4 -1.95)
+		(end -4.4 1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "067879f9-b0ba-40c4-8386-1e40b6d0503c")
+	)
+	(fp_line
+		(start -4.4 1.95)
+		(end 4.4 1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9228bd98-459d-42b4-b7c3-c0f2706984c5")
+	)
+	(fp_line
+		(start 4.4 -1.95)
+		(end -4.4 -1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad85d682-cc77-4620-916d-66e2760f904f")
+	)
+	(fp_line
+		(start 4.4 1.95)
+		(end 4.4 -1.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53988785-d46a-4f9a-95dd-a561b76568e7")
+	)
+	(fp_circle
+		(center -5 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6487824-9304-41c3-9f9f-a2550c615acf")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "737fe46a-ff5a-4ba2-8e10-c5649a07c38c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "af7c9e75-f3ef-40ff-9d14-c670e77ecba6")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6ed1d265-04ed-4dbc-8786-4182b73a4fd9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Parts/SLW_883935_2A_D/SLW-883935-2A-D.step"
+		(offset
+			(xyz -0.75 8.75 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

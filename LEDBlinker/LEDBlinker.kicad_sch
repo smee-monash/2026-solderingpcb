@@ -1226,18 +1226,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1246,8 +1245,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1278,7 +1277,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1289,7 +1288,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1300,10 +1299,376 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_0_0"
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PT01-D115D-B104:PT01-D115D-B104"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -4.064 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PT01-D115D-B104"
+				(at -7.62 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PT01-D115D-B104:TRIM_PT01-D115D-B104"
+				(at 4.572 14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at -7.874 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "26.8 mm"
+				(at -5.588 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 6.35 11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "PT01-D115D-B104_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PT01-D115D-B104_1_1"
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at -1.651 0 900)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1314,7 +1679,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1325,8 +1690,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1336,9 +1712,20 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1356,7 +1743,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -1366,6 +1753,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1994,7 +2399,7 @@
 	)
 	(text "USB-C Breakout"
 		(exclude_from_sim no)
-		(at 65.786 43.18 0)
+		(at 77.724 37.846 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2035,10 +2440,16 @@
 		(uuid "11f324a3-d26b-4f0c-a785-252678df0daa")
 	)
 	(junction
-		(at 228.6 99.06)
+		(at 228.6 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30edfa44-dbfb-4bf7-a339-47b27b4776f2")
+		(uuid "27bfa975-6f00-426b-b385-332633a504d6")
+	)
+	(junction
+		(at 53.34 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc0a230-5f1d-47e0-a5b1-8fb091ed7f5d")
 	)
 	(junction
 		(at 228.6 91.44)
@@ -2047,10 +2458,22 @@
 		(uuid "3d6cdda2-7306-4f85-84b7-490e816f9ace")
 	)
 	(junction
+		(at 53.34 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4798ff6a-c417-4d26-aba5-6151e67d3d17")
+	)
+	(junction
 		(at 228.6 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a6d4170-bd46-4975-9239-0ec72f770efb")
+	)
+	(junction
+		(at 228.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b867ce2-6162-428f-84a7-4f05cfcbbf7c")
 	)
 	(junction
 		(at 228.6 76.2)
@@ -2059,22 +2482,34 @@
 		(uuid "78624adc-fa90-42ce-aed6-eb76729ca07e")
 	)
 	(junction
-		(at 49.53 133.35)
+		(at 228.6 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abe45acb-b5c4-45fc-a2be-cde85fb0e9f5")
+		(uuid "acecc42d-105e-4a0f-8f3c-4625204bdba6")
 	)
 	(junction
-		(at 49.53 125.73)
+		(at 194.31 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dbda81b2-c188-4358-971f-0eca9d01b8c8")
+		(uuid "b90abdb9-1135-4ef4-8e51-2898251a29aa")
 	)
 	(junction
-		(at 190.5 110.49)
+		(at 228.6 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9565c5f-3da1-4cdc-8770-208fa6229a54")
+		(uuid "c3570129-a220-48f6-bcc2-14014a094164")
+	)
+	(junction
+		(at 228.6 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdee9c4d-f3d9-4bbd-85d8-ce30eb5327a4")
+	)
+	(junction
+		(at 43.18 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed18c3f1-7a05-4036-a136-05a3cf1eee28")
 	)
 	(junction
 		(at 228.6 68.58)
@@ -2089,34 +2524,30 @@
 		(uuid "ef79d488-3ded-46af-a631-b2b2a8ad8860")
 	)
 	(junction
-		(at 59.69 133.35)
+		(at 63.5 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6467011-4839-44c8-bd73-d3e9feeb0ee9")
+	)
+	(no_connect
+		(at 49.53 128.27)
+		(uuid "08a5fd78-8f32-4b43-87bb-041feb18efc1")
 	)
 	(no_connect
 		(at 57.15 74.93)
 		(uuid "2d6eb034-a4c7-4f57-97d9-cfe0b1393ec7")
 	)
 	(no_connect
-		(at 187.96 105.41)
-		(uuid "458a8c22-fe5e-46b6-9108-741fca86a810")
-	)
-	(no_connect
 		(at 57.15 72.39)
 		(uuid "46208fd9-e4c5-43fa-81b2-e180c6dcc7f6")
-	)
-	(no_connect
-		(at 187.96 107.95)
-		(uuid "467f9333-2b58-4c24-960a-bcb744a7a04d")
 	)
 	(no_connect
 		(at 57.15 67.31)
 		(uuid "56d3a2ab-f271-4fd1-9d50-7f9fa78e986b")
 	)
 	(no_connect
-		(at 187.96 102.87)
-		(uuid "c95f8048-f403-4aae-bc62-dac055601b6b")
+		(at 208.28 134.62)
+		(uuid "72dfd07c-4a39-4d20-b6e9-a6b92527b98a")
 	)
 	(no_connect
 		(at 57.15 69.85)
@@ -2125,6 +2556,16 @@
 	(no_connect
 		(at 144.78 85.09)
 		(uuid "f8388dfb-5752-42be-bd92-748b3fa2a213")
+	)
+	(wire
+		(pts
+			(xy 196.85 128.27) (xy 210.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0296a5e5-fd98-43f1-8c66-dbebff1aee95")
 	)
 	(wire
 		(pts
@@ -2138,13 +2579,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 110.49) (xy 190.5 110.49)
+			(xy 194.31 110.49) (xy 194.31 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03748f9f-84d2-47aa-8b81-f84af706ef51")
+		(uuid "03342977-9d8b-4298-a307-dd91e3562112")
 	)
 	(wire
 		(pts
@@ -2168,6 +2609,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 134.62) (xy 43.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b21a4d-5a9e-4c72-921e-042d4cde8e88")
+	)
+	(wire
+		(pts
+			(xy 53.34 128.27) (xy 53.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08baedaf-f0cf-4197-ad36-8d6a8987a89d")
+	)
+	(wire
+		(pts
 			(xy 218.44 76.2) (xy 228.6 76.2)
 		)
 		(stroke
@@ -2178,7 +2639,37 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 130.81) (xy 59.69 133.35)
+			(xy 43.18 137.16) (xy 43.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d8f7ac-84a2-4346-a254-9e86745ece58")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a517a94-cc3d-41cd-8b96-28ee2785fdb2")
+	)
+	(wire
+		(pts
+			(xy 43.18 132.08) (xy 44.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6be857-b1bd-4b31-b80d-427dcfd91f4a")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 63.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2218,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 137.16) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19347ee6-3e4c-4222-b18b-de5ba395eefa")
+	)
+	(wire
+		(pts
 			(xy 228.6 68.58) (xy 228.6 76.2)
 		)
 		(stroke
@@ -2228,7 +2729,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 72.39 118.11)
+			(xy 218.44 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c462030-523d-4be9-974c-67c03f09635b")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 76.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2268,6 +2779,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 100.33) (xy 204.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cff8ded-a736-4e47-bf9f-98f31ecc9435")
+	)
+	(wire
+		(pts
 			(xy 201.93 90.17) (xy 201.93 76.2)
 		)
 		(stroke
@@ -2288,6 +2809,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 114.3) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3519232e-e487-4d11-8122-f285c6df79b7")
+	)
+	(wire
+		(pts
 			(xy 64.77 68.58) (xy 64.77 71.12)
 		)
 		(stroke
@@ -2298,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 125.73) (xy 62.23 125.73)
+			(xy 53.34 129.54) (xy 66.04 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2308,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 133.35) (xy 62.23 133.35)
+			(xy 63.5 137.16) (xy 66.04 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2318,7 +2849,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 109.22) (xy 228.6 111.76)
+			(xy 218.44 121.92) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e78e60-d053-4c0a-baa5-138d22975765")
+	)
+	(wire
+		(pts
+			(xy 228.6 137.16) (xy 228.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2328,33 +2869,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 123.19) (xy 62.23 123.19)
+			(xy 194.31 137.16) (xy 198.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478f2980-f64c-4185-b65e-2478b60e46e2")
+	)
+	(wire
+		(pts
+			(xy 63.5 127) (xy 66.04 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47a8087f-ff90-4e75-acb8-95514c25f4b0")
-	)
-	(wire
-		(pts
-			(xy 190.5 100.33) (xy 190.5 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d32967f-ceae-4272-834a-ab8be6fcbcc8")
-	)
-	(wire
-		(pts
-			(xy 190.5 110.49) (xy 193.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571fa1a3-5610-4e7b-ba8f-a5495a1d9c1e")
 	)
 	(wire
 		(pts
@@ -2378,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 205.74 107.95)
+			(xy 213.36 139.7) (xy 213.36 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2428,7 +2959,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 83.82 114.3)
+			(xy 228.6 128.27) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e516aa-642c-4bdd-ba3c-b783f56785a8")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 87.63 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2438,13 +2979,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 130.81) (xy 59.69 130.81)
+			(xy 66.04 134.62) (xy 63.5 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6775cd3b-8c6b-4251-b43a-b82ad835e50e")
+	)
+	(wire
+		(pts
+			(xy 187.96 100.33) (xy 204.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6844ec75-0d7b-46e1-9bb7-441d9af5c8fb")
 	)
 	(wire
 		(pts
@@ -2468,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 115.57) (xy 49.53 118.11)
+			(xy 53.34 119.38) (xy 53.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 113.03) (xy 74.93 118.11)
+			(xy 78.74 116.84) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2498,13 +3049,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 110.49) (xy 190.5 113.03)
+			(xy 43.18 134.62) (xy 44.45 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82ce9b7b-e5b1-4f7a-93b8-fa04d7a9fc55")
+		(uuid "8047cb7d-0441-450c-84ee-cb4281974c2f")
 	)
 	(wire
 		(pts
@@ -2515,6 +3066,26 @@
 			(type default)
 		)
 		(uuid "83bf3541-75ea-48f5-b794-443d01328d69")
+	)
+	(wire
+		(pts
+			(xy 194.31 137.16) (xy 194.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f88dc6-a68d-42f9-a325-3eaecd824505")
+	)
+	(wire
+		(pts
+			(xy 218.44 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c698f4a-3147-4c13-bd3c-37edf69bade2")
 	)
 	(wire
 		(pts
@@ -2538,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 205.74 110.49)
+			(xy 208.28 139.7) (xy 213.36 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 120.65) (xy 59.69 123.19)
+			(xy 63.5 124.46) (xy 63.5 127)
 		)
 		(stroke
 			(width 0)
@@ -2568,13 +3139,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 228.6 101.6)
+			(xy 228.6 99.06) (xy 228.6 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9a8c070-cebc-4965-ae3e-99d5982a8f18")
+	)
+	(wire
+		(pts
+			(xy 187.96 110.49) (xy 194.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acac5d19-c404-46d4-8eab-4e420279cc7e")
 	)
 	(wire
 		(pts
@@ -2598,7 +3179,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 59.69 133.35)
+			(xy 201.93 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3987ede-9b21-4344-b17c-8016254e9367")
+	)
+	(wire
+		(pts
+			(xy 53.34 137.16) (xy 63.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2628,13 +3219,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 128.27) (xy 85.09 128.27)
+			(xy 201.93 102.87) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96721f0-30b5-41cc-80f5-c3cc221b14e1")
+	)
+	(wire
+		(pts
+			(xy 86.36 132.08) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9b258ca-5a44-4cc3-a317-2b9ffb03b464")
+	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8f421d-1a0b-4961-8fe5-d104fe925030")
 	)
 	(wire
 		(pts
@@ -2645,6 +3256,26 @@
 			(type default)
 		)
 		(uuid "bc4441d1-227f-430a-95e8-47457e3bb34c")
+	)
+	(wire
+		(pts
+			(xy 199.39 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc489ac5-08ee-42bc-8849-2009466ee603")
+	)
+	(wire
+		(pts
+			(xy 53.34 129.54) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef277cf-f4f4-4f62-9246-48909d0822d9")
 	)
 	(wire
 		(pts
@@ -2668,6 +3299,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 106.68) (xy 210.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86668a2-41ec-44ae-af4c-051b61db0e38")
+	)
+	(wire
+		(pts
 			(xy 187.96 92.71) (xy 204.47 92.71)
 		)
 		(stroke
@@ -2675,6 +3316,26 @@
 			(type default)
 		)
 		(uuid "c87e1e18-46f8-4160-b096-22ad67e1eec3")
+	)
+	(wire
+		(pts
+			(xy 218.44 128.27) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca62e46f-93e8-431e-9658-33cb92bd3fcb")
+	)
+	(wire
+		(pts
+			(xy 49.53 128.27) (xy 49.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac6c911-c29a-4b7a-9db8-d59112e780b7")
 	)
 	(wire
 		(pts
@@ -2708,6 +3369,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 102.87) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15fae4c-6552-4ded-8112-efd12794f1f1")
+	)
+	(wire
+		(pts
 			(xy 64.77 68.58) (xy 72.39 68.58)
 		)
 		(stroke
@@ -2725,16 +3396,6 @@
 			(type default)
 		)
 		(uuid "dc2f2959-5ffa-4f0e-9825-28b152b85cd5")
-	)
-	(wire
-		(pts
-			(xy 187.96 100.33) (xy 190.5 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de960000-1cc6-47cd-a167-d0c1d11cabbf")
 	)
 	(wire
 		(pts
@@ -2768,6 +3429,36 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 105.41) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeeb69ff-761a-4554-85f2-8b9b3250626e")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 196.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeecbe33-d630-4003-8a94-0e380f7883e5")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 199.39 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a15ff7-5d3b-427a-a845-5d4b48ee3483")
+	)
+	(wire
+		(pts
 			(xy 64.77 53.34) (xy 64.77 54.61)
 		)
 		(stroke
@@ -2786,8 +3477,18 @@
 		)
 		(uuid "f7f25d29-a48a-4054-b0c8-c797f287c667")
 	)
+	(wire
+		(pts
+			(xy 187.96 107.95) (xy 196.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb27e322-f551-4d69-909d-dd898eff619c")
+	)
 	(label "OUT"
-		(at 85.09 128.27 0)
+		(at 93.98 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,6 +3506,96 @@
 			(justify right bottom)
 		)
 		(uuid "ceda7cfa-1818-412f-bf50-7187a45d54d0")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01c1d076-5e94-4c58-90cf-973ab7f3aead")
+		(property "Reference" "D11"
+			(at 216.2175 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 216.2175 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 214.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b7ec381-e3df-422c-968e-afc28d773704")
+		)
+		(pin "2"
+			(uuid "3ef4dc1a-18cd-4cd4-ae74-9fe71c4d0475")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
@@ -2840,7 +3631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "treedix-usb-c-breakout-board:PinHeader_1x06_P2.54mm_Vertical"
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2989,7 +3780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17a84f98-e8fb-41e6-816e-a9a66505fd23")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 189.23 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3049,7 +3840,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3057,7 +3848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 140.97 0)
+		(at 96.52 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3066,9 +3857,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25217f53-ecb6-4cb4-a2cf-610fd85c9ef4")
-		(property "Reference" "#PWR05"
-			(at 49.53 147.32 0)
+		(uuid "2070e18c-fe3c-4ed9-9287-5ff50c488a8a")
+		(property "Reference" "#PWR010"
+			(at 96.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3079,7 +3870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 146.05 0)
+			(at 96.52 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3089,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 140.97 0)
+			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 140.97 0)
+			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +3902,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 140.97 0)
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09276b68-0a9f-4d55-8946-9f0393b78fd3")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25217f53-ecb6-4cb4-a2cf-610fd85c9ef4")
+		(property "Reference" "#PWR02"
+			(at 53.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,7 +3996,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3135,7 +4004,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 49.53 121.92 0)
+		(at 53.34 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3146,7 +4015,7 @@
 		(fields_autoplaced yes)
 		(uuid "26812af4-35fd-43d7-a84c-5a840af0b121")
 		(property "Reference" "R1"
-			(at 52.07 120.6499 0)
+			(at 55.88 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3156,8 +4025,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 52.07 123.1899 0)
+		(property "Value" "1k"
+			(at 55.88 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3167,8 +4036,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.546 122.174 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 54.356 124.714 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3179,7 +4048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 121.92 0)
+			(at 53.34 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +4059,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 49.53 121.92 0)
+			(at 53.34 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3217,7 +4086,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 111.76 0)
+		(at 228.6 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3227,8 +4096,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ec5f79e-3890-4b86-95f6-eb4d65daca5a")
-		(property "Reference" "#PWR017"
-			(at 228.6 118.11 0)
+		(property "Reference" "#PWR016"
+			(at 228.6 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,7 +4108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 116.84 0)
+			(at 228.6 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3249,7 +4118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 111.76 0)
+			(at 228.6 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +4129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 111.76 0)
+			(at 228.6 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,7 +4140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 111.76 0)
+			(at 228.6 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,15 +4156,15 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 120.65 0)
+		(lib_id "Device:LED")
+		(at 214.63 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3303,11 +4172,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "379793df-3044-4a9c-bc8f-da49b69ad9d8")
-		(property "Reference" "#PWR06"
-			(at 59.69 124.46 0)
-			(hide yes)
+		(uuid "377037eb-d340-48f2-b293-a516b2a10400")
+		(property "Reference" "D8"
+			(at 216.2175 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3316,8 +4183,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 59.69 115.57 0)
+		(property "Value" "LED"
+			(at 216.2175 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3326,8 +4193,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 59.69 120.65 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 214.63 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3338,7 +4205,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 120.65 0)
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4feb4bc8-a0b1-44cf-b50b-2aeb6a086ce3")
+		)
+		(pin "2"
+			(uuid "1df488b3-8ee9-45da-b816-e505f1ec6c20")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "379793df-3044-4a9c-bc8f-da49b69ad9d8")
+		(property "Reference" "#PWR03"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +4308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 120.65 0)
+			(at 63.5 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +4324,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3383,7 +4342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418d3f1d-5867-4a0d-8d70-4ac82042cedb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 142.24 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3443,7 +4402,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3461,7 +4420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ba458c-ffc3-4863-a6d7-7b8d9e23004b")
-		(property "Reference" "D10"
+		(property "Reference" "D2"
 			(at 216.2175 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +4440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 214.63 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3534,7 +4493,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "D10")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3542,7 +4501,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 205.74 107.95 0)
+		(at 213.36 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3551,8 +4510,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44cdc2d9-0e6d-456f-a9d4-80a15fb678b5")
-		(property "Reference" "#PWR014"
-			(at 205.74 111.76 0)
+		(property "Reference" "#PWR015"
+			(at 213.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +4522,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 205.486 104.14 0)
+			(at 213.106 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3573,7 +4532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 107.95 0)
+			(at 213.36 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +4543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 107.95 0)
+			(at 213.36 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,7 +4554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 205.74 107.95 0)
+			(at 213.36 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +4570,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3628,7 +4587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "487d1e68-ecfa-4942-9484-181591eaf73f")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 216.2175 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 214.63 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3701,89 +4660,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 49.53 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b49243f-5403-4744-a56e-7433af6da02d")
-		(property "Reference" "R2"
-			(at 52.07 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 52.07 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.546 129.794 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 49.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50a7aa15-d1a6-490e-b4cd-46bb443171ef")
-		)
-		(pin "2"
-			(uuid "f2a4ef26-f58f-4cde-9f07-325625e3d1c0")
-		)
-		(instances
-			(project "LEDBlinker"
-				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "R2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3801,7 +4678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b967fe7-9640-4c42-a264-15d45c1c6f70")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 216.2175 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3821,7 +4698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3874,7 +4751,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3882,7 +4759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 120.65 0)
+		(at 194.31 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3892,8 +4769,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d3aa2db-41eb-4b28-93e7-193c5dc7d21b")
-		(property "Reference" "#PWR013"
-			(at 190.5 127 0)
+		(property "Reference" "#PWR014"
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,7 +4781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 125.73 0)
+			(at 194.31 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3914,7 +4791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 120.65 0)
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3925,7 +4802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 120.65 0)
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3936,7 +4813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 120.65 0)
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3952,7 +4829,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3960,7 +4837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 138.43 0)
+		(at 76.2 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3970,8 +4847,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ab132d-1780-4e5f-b09f-b5284ed54180")
-		(property "Reference" "#PWR08"
-			(at 72.39 144.78 0)
+		(property "Reference" "#PWR06"
+			(at 76.2 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3982,7 +4859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 143.51 0)
+			(at 76.2 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3992,7 +4869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 138.43 0)
+			(at 76.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,7 +4880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 138.43 0)
+			(at 76.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,7 +4891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 138.43 0)
+			(at 76.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4907,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5881b770-7545-4abe-b872-b50b49732f2b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 64.77 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4108,7 +4985,100 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR02")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 96.52 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6262cfd4-9c41-443d-b053-fe293bbbeed4")
+		(property "Reference" "D1"
+			(at 100.33 66.3574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.33 68.8974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 96.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 96.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f17004e-408c-4f0f-9174-0037de2413d2")
+		)
+		(pin "1"
+			(uuid "d43890e4-424e-4969-9ddd-b78039b29e63")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4126,7 +5096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b2c1d7-83ba-4671-b279-331c26467836")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 216.2175 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 214.63 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4199,7 +5169,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4207,7 +5177,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 118.11 0)
+		(at 87.63 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4218,7 +5188,7 @@
 		(fields_autoplaced yes)
 		(uuid "75159e95-05ca-46bb-a29e-a6ff3cac562a")
 		(property "Reference" "C2"
-			(at 87.63 116.8399 0)
+			(at 91.44 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4228,8 +5198,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 87.63 119.3799 0)
+		(property "Value" "0.01u"
+			(at 91.44 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4239,8 +5209,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 84.7852 121.92 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
+			(at 88.5952 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4251,7 +5221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 118.11 0)
+			(at 87.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,7 +5232,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 118.11 0)
+			(at 87.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4298,7 +5268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b87a87f-b11b-4320-812a-19be55b4d959")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 216.2175 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4371,7 +5341,147 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "D4")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PT01-D115D-B104:PT01-D115D-B104")
+		(at 49.53 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e297900-34b1-4dd0-a858-7a37ccd51c5e")
+		(property "Reference" "R2"
+			(at 44.196 129.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PT01-D115D-B104"
+			(at 41.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PT01_D115D_B104:TRIM_PT01-D115D-B104"
+			(at 54.102 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 41.656 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "26.8 mm"
+			(at 43.942 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 55.88 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "37551592-bd96-4cde-bf0f-f1daab8c8eb3")
+		)
+		(pin "2"
+			(uuid "f20d4d06-28d3-4357-860c-0d984dff54a4")
+		)
+		(pin "3"
+			(uuid "c05ae998-3d7f-4c34-b3f5-5902c73d433d")
+		)
+		(pin "S1"
+			(uuid "c229ee13-faab-4e97-8259-741c7d349a57")
+		)
+		(pin "S2"
+			(uuid "6e368767-c761-47b9-b4c6-ca6a393afe7e")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4379,7 +5489,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 228.6 105.41 180)
+		(at 228.6 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4389,8 +5499,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8023763b-61e7-400d-9444-5441c89d2f7f")
-		(property "Reference" "R9"
-			(at 231.14 104.1399 0)
+		(property "Reference" "R4"
+			(at 231.14 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4400,8 +5510,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
-			(at 231.14 106.6799 0)
+		(property "Value" "330"
+			(at 231.14 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4411,8 +5521,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.584 105.156 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 227.584 133.096 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +5533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 105.41 0)
+			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +5544,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 228.6 105.41 0)
+			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +5563,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4538,6 +5648,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 203.2 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80b09556-9c00-4779-ad41-9d914afa656f")
+		(property "Reference" "SW1"
+			(at 204.978 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 205.74 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SLW_883935_2A_D:SW_SLW-883935-2A-D"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bed39912-5a4d-49d0-99d3-e1c26083e5b3")
+		)
+		(pin "3"
+			(uuid "d6696c52-afbf-4d2a-865e-a2e01f865b3b")
+		)
+		(pin "1"
+			(uuid "3aac28f0-8b4f-4abb-9b21-5a4de8f660ac")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 64.77 53.34 0)
 		(unit 1)
@@ -4549,7 +5741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8892ba82-c338-4b8d-9a50-e5a9fc6bbe60")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 64.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4609,15 +5801,15 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 116.84 180)
+		(lib_id "Device:LED")
+		(at 214.63 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4625,32 +5817,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "936dcec1-5340-4ce0-9d1a-0c4fd2bef02a")
-		(property "Reference" "R8"
-			(at 193.04 115.5699 0)
+		(uuid "89853766-47dc-4343-890a-b0124ae71b89")
+		(property "Reference" "D10"
+			(at 216.2175 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_US"
-			(at 193.04 118.1099 0)
+		(property "Value" "LED"
+			(at 216.2175 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.484 116.586 90)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 214.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +5850,100 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 116.84 0)
+			(at 214.63 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9708d6c-2e93-424a-bba1-77fc5a1b4383")
+		)
+		(pin "2"
+			(uuid "7c0c39cb-02c7-456e-b23e-8c7ef8d63e62")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 96.52 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90261451-81eb-4533-bcc7-8b9c961141d6")
+		(property "Reference" "R5"
+			(at 99.06 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 99.06 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 97.536 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +5954,89 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 190.5 116.84 0)
+			(at 96.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f95ad98a-baeb-443f-bd38-9bdf0f522eb3")
+		)
+		(pin "2"
+			(uuid "0f386685-22f9-4782-8078-e8335d5c49e8")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "936dcec1-5340-4ce0-9d1a-0c4fd2bef02a")
+		(property "Reference" "R3"
+			(at 196.85 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 196.85 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 193.294 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +6055,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4709,7 +6073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c8c2e5-b582-4711-b5b5-aa54cf67504a")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 216.2175 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4782,47 +6146,48 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 49.53 115.57 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b2d3e12-99ca-4fbe-a60d-b7275a2bf2ea")
-		(property "Reference" "#PWR04"
-			(at 49.53 119.38 0)
-			(hide yes)
+		(uuid "95e9a0cf-bb46-4246-a496-d5e1d9e55793")
+		(property "Reference" "H4"
+			(at 53.34 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 49.53 110.49 0)
+		(property "Value" "MountingHole"
+			(at 53.34 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 115.57 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 50.8 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +6198,172 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 115.57 0)
+			(at 50.8 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96ce64d8-da3f-478e-b3ef-618f36e279ae")
+		(property "Reference" "D9"
+			(at 216.2175 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 216.2175 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c1cebba-a7b1-4d07-adc5-9b025b896dc3")
+		)
+		(pin "2"
+			(uuid "61b71528-4822-4f4f-8e76-a6b48770019d")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b2d3e12-99ca-4fbe-a60d-b7275a2bf2ea")
+		(property "Reference" "#PWR01"
+			(at 53.34 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +6374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 115.57 0)
+			(at 53.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +6390,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4868,7 +6398,7 @@
 	)
 	(symbol
 		(lib_id "Timer:LM555xN")
-		(at 72.39 128.27 0)
+		(at 76.2 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4877,8 +6407,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a033b434-6d87-4253-ab3d-b2f2adf02a61")
-		(property "Reference" "U2"
-			(at 82.804 131.826 0)
+		(property "Reference" "U1"
+			(at 86.614 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4888,7 +6418,7 @@
 			)
 		)
 		(property "Value" "LM555xN"
-			(at 85.344 135.382 0)
+			(at 89.154 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4898,7 +6428,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 72.39 151.13 0)
+			(at 76.2 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,7 +6439,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm555.pdf"
-			(at 72.39 153.67 0)
+			(at 76.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4920,7 +6450,7 @@
 			)
 		)
 		(property "Description" "Timer, 555 compatible, PDIP-8"
-			(at 72.39 148.59 0)
+			(at 76.2 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,7 +6487,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5043,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 121.92 0)
+		(at 87.63 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5052,8 +6582,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba0ca0f4-1f09-48a5-9d6d-1001bf7f7258")
-		(property "Reference" "#PWR07"
-			(at 83.82 128.27 0)
+		(property "Reference" "#PWR08"
+			(at 87.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +6594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.138 123.698 0)
+			(at 91.948 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5074,7 +6604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 121.92 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5085,7 +6615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 121.92 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +6626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 121.92 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,87 +6642,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 198.12 110.49 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd2214a2-6575-44db-a13f-2084bee54930")
-		(property "Reference" "SW2"
-			(at 198.12 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 198.12 104.394 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 198.12 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e8b435e-5ad7-46bf-84a0-f72031b761c6")
-		)
-		(pin "1"
-			(uuid "640e878e-3890-45e3-8b19-65d89a927fdf")
-		)
-		(instances
-			(project "LEDBlinker"
-				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "SW2")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5210,7 +6660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c26f25ec-c8b2-45a7-a2c4-f126064477f1")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 166.37 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +6680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N16"
+		(property "Footprint" "CD4017BE:N16"
 			(at 187.96 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5316,7 +6766,7 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5324,7 +6774,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 74.93 113.03 0)
+		(at 78.74 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5334,8 +6784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c42f523f-e086-407c-a16d-49258e5cffe9")
-		(property "Reference" "#PWR03"
-			(at 74.93 116.84 0)
+		(property "Reference" "#PWR07"
+			(at 78.74 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5346,7 +6796,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 107.95 0)
+			(at 78.74 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5356,7 +6806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 113.03 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,7 +6817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 113.03 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5378,7 +6828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 113.03 0)
+			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,26 +6844,26 @@
 		(instances
 			(project "LEDBlinker"
 				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 49.53 137.16 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f41423fc-587b-41ce-b1e2-a9627cd8e7a3")
-		(property "Reference" "C1"
-			(at 53.34 135.8899 0)
+		(uuid "dc7c602a-72e9-4c7f-8295-56b3e9027303")
+		(property "Reference" "H1"
+			(at 27.94 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5423,8 +6873,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 53.34 138.4299 0)
+		(property "Value" "MountingHole"
+			(at 27.94 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5434,8 +6884,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.4952 140.97 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 25.4 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +6896,391 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 137.16 0)
+			(at 25.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2784d71-d880-4f97-8bfc-e9ae1fc841d0")
+		(property "Reference" "#PWR017"
+			(at 43.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dfe0b38-727a-4936-b2a4-483548d67899")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2b5ca45-a37b-41cb-a170-1efee119fda3")
+		(property "Reference" "H2"
+			(at 53.34 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 50.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 96.52 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6bfa70c-d4f2-4fd8-96d2-ec8f9ec5d2e8")
+		(property "Reference" "#PWR09"
+			(at 96.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 96.52 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 96.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b703b6f-ed29-467c-9f30-f4c5d389ba10")
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e960c15a-e5d4-4cd1-8824-ca3bc814d2a1")
+		(property "Reference" "H3"
+			(at 27.94 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 25.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "LEDBlinker"
+				(path "/4b6cc55c-f6bb-4880-8b09-aa376f607f23"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f41423fc-587b-41ce-b1e2-a9627cd8e7a3")
+		(property "Reference" "C1"
+			(at 57.15 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 57.15 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 54.3052 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,7 +7291,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 137.16 0)
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
